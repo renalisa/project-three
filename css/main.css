@@ -5,3 +5,53 @@ video {
   width: 100%;
   height: auto;
 }
+
+header {
+  background-color: #f8e7d0;
+}
+header h1,
+h2 {
+  text-align: center;
+}
+
+/*MOBILE ONLY*/
+@media (max-width: 40rem) {
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*WEB ONLY*/
+@media (min-width: 40rem) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cards {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+  }
+}
+
+article {
+  background-color: #ebbc7a;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+#map {
+  width: 70vh;
+  height: auto;
+}
+
+.scrollbar {
+  background-color: #f8e7d0;
+}
