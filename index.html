@@ -24,17 +24,18 @@
       </section>
       <section class="cards">
         <h3>Destinations Around the World</h3>
-        <button>Filter by Region</button>
-        <ul>
-          <li>North America</li>
-          <li>South American</li>
-          <li>Central America</li>
-          <li>Asia</li>
-          <li>Africa</li>
-          <li>Europe</li>
-          <li>Australia</li>
-          <li>Antartica</li>
-        </ul>
+        <label>Filter by Region</label>
+        <select name="regions" class="regions">
+          <option value="Any">Any</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America/option></option>
+          <option value="Central America">Central America</option>
+          <option value="Asia">Asia</option>
+          <option value="Africa">Africa</option>
+          <option value="Australia">Australia</option>
+          <option value="Antartica">Antartica</option>
+        </select>
+
         <div class="scrollbar">
           <div>
             scrollbar reference
@@ -48,15 +49,13 @@
       </section>
       <section class="list">
         <h3>Add a Destination</h3>
-        <input type="Type Here" />
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <input
+          class="input"
+          placeholder="Type Here"
+          type="text"
+          onblur="getValue()"
+        />
+        <ul></ul>
       </section>
     </article>
     <footer>Copyright 2021 Renata Schmidt</footer>
