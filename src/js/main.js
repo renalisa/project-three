@@ -21,3 +21,26 @@ document.querySelector("input").addEventListener("keypress", function (e) {
     getVal();
   }
 });
+
+
+// destination boxes //
+//functon//
+
+let myCard = {
+  title: "my trip",
+  blurb: "fhakjhakfhna"
+}
+
+function getTravelCardHTML(card, title){
+  let dive = document.createElement("div");
+let template = '<article>
+  <h2>${card.title}</h2>
+
+  </article>';
+
+  dive.innerHTML = template; 
+
+return template;
+
+}
+document.body.appendChild(getTravelCardHTML)(myCard)

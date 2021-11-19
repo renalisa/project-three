@@ -1,0 +1,108 @@
+json
+
+"destinations":[
+
+{
+    "destination": "",
+    "country": "",
+}
+
+{
+"destination":"Eiffel Tower",
+"country":"France",
+"city": "Paris", 
+"continent":"Europe",
+"type of space":"Monument",
+}
+
+{"destination":"The Taj Mahal",
+"country": "India",
+"city":"Agra",
+"continent": "Asia",
+"type of space": "Monument",
+}
+
+{"destination":"The Pyramids of Giza",
+"country": :"Egypt",
+"city": "Cairo",
+"continent": "Africa",
+"Type of Space": "Monument",
+}
+
+{"destination":"Machu Picchu",
+"country": "Peru",
+"city": "Cuzco",
+"continent": "South America",
+"type of space": "monuemnt",
+
+
+}
+{"destination":"The Eye",
+    "country": "England",
+    "city": "London",
+    "continent": "Europe",
+    "Type of Space": "Attraction",
+
+}
+{"destination":"The Golden Gate Bridge",
+    "country": "United States of America",
+    "city": "San Francisco",
+    "continent": "North America",
+    "Type of Space": "Infrastructure",
+}
+{"destination":"The Louvre",
+    "country": "France",
+    "city": "Paris",
+    "continent": "Europe",
+    "Type of Space": "Museum",}
+
+{"destination":"The Great Wall of China",
+    "country": "China",
+    "city": "Beijing",
+    "continent": "Asia",
+    "Type of Space": "Monument",}
+{"destination":"Times Square",
+    "country": "United States of America",
+    "city": "New York City",
+    "continent": "North America",
+    "Type of Space": "Attraction",}
+{"destination":"The Grand Canyon",
+    "country": "United States",
+    "city": "",
+    "continent": "North America",
+    "Type of Space": "Nature",}
+{"destination":"The Great Barrier Reef",
+    "country": "Australia",
+    "city": "Cairns",
+    "continent": "Australia",
+    "Type of Space": "Nature",}
+{"destination":"The Parthenon",
+    "country": "Greece",
+    "city": "Athens",
+    "continent": "Europe",
+    "Type of Space": "Monument",}
+{"destination":"The Colosseum",
+    "country": "Italy",
+    "city": "Rome",
+    "continent": "Europe",
+    "Type of Space": "Monument",}
+{"destination":"Kruger National Park",
+    "country": "South Africa",
+    "city": "Mbombela",
+    "continent": "Africa",
+    "Type of Space": "Nature",}
+{"destination":"Red Light District",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "continent": "Europe",
+    "Type of Space": "Attraction",}
+{"destination":"Virunga National Park",
+    "country": "Democratic Republic of the Congo",
+    "city": "Goma",
+    "continent": "Africa",
+    "Type of Space": "Nature",}
+
+
+
+
+]
