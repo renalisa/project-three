@@ -2,10 +2,7 @@ json
 
 "destinations":[
 
-{
-    "destination": "",
-    "country": "",
-}
+
 
 {
 "destination":"Eiffel Tower",
@@ -13,6 +10,7 @@ json
 "city": "Paris", 
 "continent":"Europe",
 "type of space":"Monument",
+"picture": ""
 }
 
 {"destination":"The Taj Mahal",
@@ -101,8 +99,60 @@ json
     "city": "Goma",
     "continent": "Africa",
     "Type of Space": "Nature",}
-
-
+{"destination":"Red Square",
+    "country": "Russia",
+    "city": "Moscow",
+    "continent": "Europe",
+    "Type of Space": "Monument",
+    }
+{"destination":"Shibuya Crossing",
+     "country": "Japan",
+     "city": "Tokyo",
+     "continent": "Asia",
+     "Type of Space": "Attraction",
+        }
+{"destination":"Sydney Opera House",
+    "country": "Australia",
+     "city": "Sydney",
+     "continent": "Australia",
+     "Type of Space": "Attraction",
+    }
+{"destination":"Arenal Volcano",
+        "country": "Costa Rica",
+        "city": "La Fortuna",
+        "continent": "Central America",
+        "Type of Space": "Natural",
+        }
+{"destination":"Build a Campfire",
+     "country": "Antartica",
+     "city": "Sike, there are none",
+     "continent": "Antartica",
+     "Type of Space": "Cold.",
+         }
+{"destination":"Chouara Tannery",
+    "country": "Morocco",
+    "city": "Fez",
+    "continent": "Africa",
+     "Type of Space": "Infrastructure",
+            }
+{"destination":"Burj Khalifa",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "continent": "Asia",
+    "Type of Space": "Infrastructure",
+}
+{"destination":"Christ the Redeemer",
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "continent": "South America",
+    "Type of Space": "Monument",
+}
+{"destination":"Gwangjang Market",
+    "country": "South Korea",
+    "city": "Seoul",
+    "continent": "Asia",
+    "Type of Space": "Attraction",
+}
 
 
 ]
