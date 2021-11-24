@@ -14,7 +14,7 @@
       <h1>Travel Diary</h1>
       <h2>Create your own adventure</h2>
     </header>
-    <article>
+    <article class="main-article">
       <section class="map">
         <img
           id="map"
@@ -26,19 +26,20 @@
         <h3>Destinations Around the World</h3>
         <label>Filter by Region</label>
         <select name="regions" class="regions">
-          <option value="Any">Any</option>
-          <option value="North America">North America</option>
-          <option value="South America">South America/option></option>
-          <option value="Central America">Central America</option>
-          <option value="Asia">Asia</option>
-          <option value="Africa">Africa</option>
-          <option value="Australia">Australia</option>
-          <option value="Antartica">Antartica</option>
+          <option class="any" value="Any">Any</option>
+          <option class="north" value="North America">North America</option>
+          <option class="south" value="South America">South America</option>
+          <option class="central" value="Central America">
+            Central America
+          </option>
+          <option class="asia" value="Asia">Asia</option>
+          <option class="africa" value="Africa">Africa</option>
+          <option class="europe" value="Europe">Europe</option>
+          <option class="australia" value="Australia">Australia</option>
+          <option class="antartica" value="Antartica">Antartica</option>
         </select>
 
-        <div class="scrollbar">
-          <div>scrollbar reference</div>
-        </div>
+        <div class="scrollbar"></div>
       </section>
       <section class="list">
         <h3>Add a Destination</h3>

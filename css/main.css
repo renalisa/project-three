@@ -16,7 +16,7 @@ h2 {
 
 /*MOBILE ONLY*/
 @media (max-width: 40rem) {
-  article {
+  article.main-article {
     display: flex;
     flex-direction: column;
   }
@@ -24,7 +24,12 @@ h2 {
 
 /*WEB ONLY*/
 @media (min-width: 40rem) {
-  article {
+  article.main-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .scrollbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -52,4 +57,19 @@ ul {
 
 .scrollbar {
   background-color: #f8e7d0;
+}
+
+scrollbar.card1 {
+  border: oldlace;
+  border-radius: 0.2rem;
+}
+
+li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: #553001;
+  font-weight: 400;
+}
+ul {
+  text-decoration: black;
 }
