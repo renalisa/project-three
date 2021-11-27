@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
   function getTravelCardHTML(card) {
     let div = document.createElement("div");
     let template = `<div>
-   <span class="span">x</span>
+   
   <h3>${card.destination}</h3>
   <p>${card.city}</p>
   <p>${card.country}</p>

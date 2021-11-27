@@ -50,18 +50,27 @@ ul {
   list-style-type: none;
 }
 
+h3 {
+  color: indigo;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #553001;
+}
+
 #map {
   width: 70vh;
   height: auto;
+  margin-top: 1rem;
 }
 
-.scrollbar {
+.scrollbar div {
   background-color: #f8e7d0;
+  margin: 0.7rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
 }
 
-scrollbar.card1 {
-  border: oldlace;
-  border-radius: 0.2rem;
+.scrollbar div h3 {
+  color: #744300;
 }
 
 li {
